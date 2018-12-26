@@ -1,0 +1,2 @@
+print "hello world"
+print 100-14/7+3*2
