@@ -15,30 +15,30 @@ As the lexer scans the data given by the analyzer from the example above, he wil
 
 ```
 Token {
-    name: 'let',
-    properties: {
-	type: 'assignment',
-	struct: [{
-		class: 'Token',
-		type: ['assignment'],
-		done: true
-	},{
-		class: 'Name',
-		type: ['identifier'],
-		done: false
-	},{
-		class: 'Token',
-		type: ['expectation'],
-		done: false
-	},{
-		class: 'Expr',
-		type: ['value','term'],
-		done: false
-	}],
-	allow: ['string'],
-	valid: true,
-	complete: false
-    }
+	name: 'let',
+	properties: {
+		type: 'assignment',
+		struct: [{
+			class: 'Token',
+			type: ['assignment'],
+			done: true
+		},{
+			class: 'Name',
+			type: ['identifier'],
+			done: false
+		},{
+			class: 'Token',
+			type: ['expectation'],
+			done: false
+		},{
+			class: 'Expr',
+			type: ['value','term'],
+			done: false
+		}],
+		allow: ['string'],
+		valid: true,
+		complete: false
+	}
 }
 ```
 
